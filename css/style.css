@@ -1,0 +1,68 @@
+/*
+ * Table
+ * --------------------------------------------------
+ */
+div.table {
+  display:table;
+}
+div.table .row {
+  display:table-row;
+}
+div.table .row div.cell {
+  display:table-cell;
+  padding:0 4px 0 4px;
+  vertical-align:middle;
+}
+div.table.default {
+  border-width:1px 1px 0px 0px;
+  border-style:solid solid none none;
+  border-color:rgb(200,200,200);
+  width:100%;
+}
+div.table.default .row.head {
+  background-color:rgb(40, 40, 40);
+  background-image:linear-gradient(to bottom, rgb(40, 40, 40) 0%, rgb(60, 60, 60) 100%);
+  color:rgb(255,255,255);
+}
+div.table.default .row.head a {
+  color:rgb(200,200,200);
+}
+div.table.default .row.head a.active {
+  color:rgb(22,159,230);
+}
+div.table.default .row.head a:hover {
+  color:rgb(255,255,255);
+}
+div.table.default .row div.cell {
+  border-width:0px 0px 1px 1px;
+  border-style:none none solid solid;
+  border-color:rgb(200,200,200);
+}
+div.table.default p {
+  border-width:0px 1px 1px 1px;
+  border-style:none solid solid solid;
+  border-color:rgb(200,200,200);
+}
+div.table .row.cont1 {
+  background-color:rgb(240,240,240);
+}
+div.table .row.blank {
+  height: 10px;
+}
+div.table.offer {
+  border-width:1px 1px 0px 0px;
+  border-style:solid solid none none;
+  border-color:rgb(234,234,234);
+  width:100%;
+}
+div.table.offer > .row > div.cell {
+  border-width:0px 0px 1px 1px;
+  border-style:none none solid solid;
+  border-color:rgb(234,234,234);
+}
+div.table.bottom {
+  width:100%;
+}
+div.table.bottom .row div.cell {
+  border-bottom:1px solid rgb(200,200,200);
+}
